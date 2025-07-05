@@ -17,7 +17,7 @@ class Student(name: String) : Person(name) {
     }
 
     fun getDetails(): String {
-        return "Name: ${getName()} \nID: $id"
+        return "Name: ${getName()} \nID: $id\n"
     }
 
     private fun generateRandomId(): String {
